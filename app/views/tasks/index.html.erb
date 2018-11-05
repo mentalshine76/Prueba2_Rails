@@ -1,5 +1,5 @@
 
-<div class= "container">
+<!-- <div class= "container">
   <div class= "row">
     <% @tasks.each do |t| %>
       <div class = "col">
@@ -8,4 +8,79 @@
       </div>
     <% end %>
   </div>
+</div> -->
+
+<div class="container">
+  <div class="row">
+    <div class='col'>
+      <h1> Recordatorio de Actividades Dieciocheras</h1>
+      <h3> ¡Puedes marcar aquella actividad patriótica que ya hayas realizado este año!</h3>
+    </div>
+  <div class="row">
+      <div class="card">
+        <%= image_tag('asado.jpg', width: '300px') %>
+        <p>Disfrutar un Rico Asado con tu Familia </p>
+        <button type="button" class="btn btn-primary">Sí</button>
+        <button type="button" class="btn btn-danger">No</button>
+      </div>
+      <div class="card">
+        <%= image_tag('cueca.jpg', width: '300px') %>
+        <p>Bailar una buena tanda de Cueca</p>
+        <button type="button" class="btn btn-primary">Sí</button>
+        <button type="button" class="btn btn-danger">No</button>
+      </div>
+      <div class="card">
+        <%= image_tag('tomarpipeno.jpg', width: '300px') %>
+        <p>Bajarse un peligroso terremoto</p>
+        <button type="button" class="btn btn-primary">Sí</button>
+        <button type="button" class="btn btn-danger">No</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="card">
+        <%= image_tag('emboque.jpg', width: '300px') %>
+        <p>Competir en emboque </p>
+        <button type="button" class="btn btn-primary">Sí</button>
+        <button type="button" class="btn btn-danger">No</button>
+      </div>
+      <div class="card">
+        <%= image_tag('comerempanada.jpg', width: '300px') %>
+        <p>Comer una rica empanada </p>
+        <button type="button" class="btn btn-primary">Sí</button>
+        <button type="button" class="btn btn-danger">No</button>
+      </div>
+      <div class="card">
+        <%= image_tag('fonda.jpg', width: '300px') %>
+        <p>Ir a las fondas</p>
+        <button type="button" class="btn btn-primary">Sí</button>
+        <button type="button" class="btn btn-danger">No</button>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="card">
+        <%= image_tag('partidofutbol.jpg', width: '300px') %>
+        <p>Jugar una entretenida pichanga </p>
+        <button type="button" class="btn btn-primary">Sí</button>
+        <button type="button" class="btn btn-danger">No</button>
+      </div>
+      <div class="card">
+        <%= image_tag('viajar.jpg', width: '300px') %>
+        <p>Viajar a Chilito </p>
+        <button type="button" class="btn btn-primary">Sí</button>
+        <button type="button" class="btn btn-danger">No</button>
+      </div>
+      <div class="card">
+        <%= image_tag('curao.jpg', width: '300px') %>
+        <p>Quedar curao</p>
+        <button type="button" class="btn btn-primary">Sí</button>
+        <button type="button" class="btn btn-danger">No</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 </div>

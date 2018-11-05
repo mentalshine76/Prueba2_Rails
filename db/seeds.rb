@@ -6,10 +6,17 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# Código de prueba para poblar el index de tasks o actividades dieciocheras:
-9.times do |i|
-  Task.create(
-    name: Faker::Commerce.product_name,
-    photo: "http://lorempixel.com/400/200/sports/#{i + 1}/"
-  )
-end
+# ------------------------------------------
+
+# Requisito No-Funcional de la Prueba 2 de Rails (comentado, para que no interfiera
+# en el despliegue de /tasks (tasks#index). El siguiente código, después de haber
+# sido utilizado como prueba, fue borrado, registro por registro, de la base de datos
+# (Task.last.destroy):
+
+# Código de prueba para poblar el index de tasks con 9 actividades dieciocheras:
+# 9.times do |i|
+#   Task.create(
+#     name: Faker::Commerce.product_name,
+#     photo: "http://lorempixel.com/400/200/sports/#{i + 1}/"
+#   )
+# end
